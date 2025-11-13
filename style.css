@@ -301,7 +301,7 @@ h1 span:hover {
     /* Enable horizontal scrolling */
     overflow-y: hidden;
     scroll-behavior: smooth;
-    scrollbar-width:inherit
+    scrollbar-width:none;
 }
 
 
@@ -666,3 +666,4 @@ form .btncv {
   color: #4a90e2;
   margin-top: 20px;
 }
+
