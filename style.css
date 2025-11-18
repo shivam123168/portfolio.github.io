@@ -332,7 +332,7 @@ h1 span:hover {
     /* fixed height */
     object-fit: cover;
     box-shadow: 0px 0px 7px 0.5px white;
-    border-radius: 110px;
+    border-radius: 20px;
     margin-bottom: 10px;
     /* display: block; */
     transition: transform 0.5s;
@@ -684,6 +684,7 @@ form .btncv {
     }
 
 }
+
 
 
 
