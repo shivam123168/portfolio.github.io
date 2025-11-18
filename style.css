@@ -103,6 +103,7 @@ h1 span:hover {
 #about {
     padding: 80px 0px;
     color: #ababab;
+    overflow-x: hidden;
 }
 
 .row {
@@ -684,6 +685,7 @@ form .btncv {
     }
 
 }
+
 
 
 
