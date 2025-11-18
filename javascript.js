@@ -4,6 +4,11 @@ const dropDownManue = document.querySelector('.dropdown_manue')
 const learnMoreButtons = document.querySelectorAll(".learn-more");
 const buttons = document.querySelectorAll(".learnmore");
 
+AOS.init({
+    duration: 1000, 
+    once: false,    
+  });
+
 buttons.forEach(btn => {
     btn.addEventListener("click", (event) => {
         event.preventDefault(); // stop page from opening link
@@ -59,5 +64,6 @@ function opentab(tab) {
     event.currentTarget.classList.add("actlink");
     document.getElementById(tab).classList.add("activecontent");
 }
+
 
 
