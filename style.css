@@ -42,12 +42,9 @@ nav {
 }
 
 .logo {
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
-nav ul {
-    margin-right: 20px;
-}
 
 nav ul li {
     display: inline-block;
@@ -541,6 +538,21 @@ form .btncv {
     margin-top: 20px;
 }
 
+/* ------------blur to unblur effect --------------- */
+
+
+[data-aos="blur-in"] {
+  filter: blur(20px);
+  opacity: 0;
+  transition-property: filter, opacity, transform;
+}
+
+
+[data-aos="blur-in"].aos-animate {
+  filter: blur(0);
+  opacity: 1;
+}
+
 /* ----------------responsive ---------------- */
 
 .toggle_btn {
@@ -672,6 +684,7 @@ form .btncv {
     }
 
 }
+
 
 
 
